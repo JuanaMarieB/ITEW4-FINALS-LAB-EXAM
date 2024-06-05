@@ -11,14 +11,15 @@ body {
     object-fit: cover;
 }
 
-h2 {
-    color: #6f4e37; /* Coffee color */
-}
-
-p {
-    color: #b5651d; /* Pastry color */
-}
-
 header, footer {
-    background-color: #343a40; /* Matching header color */
+    background-color: #343a40; /* Matching header and footer color */
+}
+
+/* Adjust carousel height for the title */
+#employeeCarousel .carousel-item {
+    height: auto;
+}
+
+#employeeCarousel .carousel-item .row {
+    align-items: center;
 }
