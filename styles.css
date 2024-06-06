@@ -6,31 +6,37 @@ body {
     width: 50px;
 }
 
+.menu-img {
+    height: 200px;
+}
+
+.coffee-img,
+.pastry-img {
+    height: 200px;
+}
+
 .carousel-item img {
     height: 400px;
     object-fit: cover;
 }
 
 header, footer {
-    background-color: #464646; /* Matching header and footer color */
+    background-color: #7c4c2e;
 }
 
-/* Adjust carousel height for the title */
 #employeeCarousel .carousel-item {
     height: auto;
 }
 
 #employeeCarousel .carousel-item .row {
-    align-items: center;
+    align-items: flex-start;
 }
 
-/* Add margin to the containers */
 .first-container,
 .second-container {
     padding: 50px;
 }
 
-/* Add padding to the employee carousel */
 .employee-carousel {
     padding: 20px;
     padding-top: 40px;
