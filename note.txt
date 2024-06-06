@@ -1,0 +1,11 @@
+IMAGES FOR 1ST CONTAINER:
+1. Coffee and Pastry Image for Best-Selling
+2. Few Images of Coffee and Pastry (CAROUSEL)
+3. Title of Website
+4. Short Introduction or Tagline
+5. Logo Image
+6. Navigations (HOME, ABOUT US, ??)
+
+IMAGES FOR 2ND CONTAINER:
+1. 4 Images would be the Breakfast, Lunch, Snack, Dinner
+2. Employee's Images and their Description (CAROUSEL)
