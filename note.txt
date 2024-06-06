@@ -9,3 +9,8 @@ IMAGES FOR 1ST CONTAINER:
 IMAGES FOR 2ND CONTAINER:
 1. 4 Images would be the Breakfast, Lunch, Snack, Dinner
 2. Employee's Images and their Description (CAROUSEL)
+
+NOTES:
+1. Need to use Micro and Marco
+2. Adjust sizes of all Images
+3. Temporary images in the current code right now
