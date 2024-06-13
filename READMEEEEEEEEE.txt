@@ -1,6 +1,6 @@
 HEADER:
 1. Logo Image
-2. Navigations (HOME, ABOUT US, ??)
+2. Navigations (HOME, MENU, CONTACT)
 
 IMAGES FOR 1ST CONTAINER:
 1. Title of Website
@@ -16,8 +16,8 @@ IMAGES FOR 2ND CONTAINER:
 3. Employee's Images and their Description (CAROUSEL)
 
 NOTES:
-1. Need to use Micro and Marco code
+1. Need to use Micro and Marco code (CHECK!)
 2. Adjust sizes of all Images
 3. TEMPORARY images in the current code right now
-4. The 2 images from the 1st container and the 4 images from the 2nd container ISN'T being responsive
+4. The 2 images from the 1st container and the 4 images from the 2nd container ISN'T being responsive (CHECK!)
 5. Need better COLOR PALETTE and IMAGES
