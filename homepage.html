@@ -53,7 +53,7 @@
             </div>
             <!-- Second Column with Carousel -->
             <div class="col-lg-6 col-md-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide first-carousel" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="images/coffee2.jpg" class="d-block w-100 fixed-size" alt="Image 1">
@@ -152,5 +152,16 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <p id="demo"></p>
+
+    <script>
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+
+    var x = document.getElementById("demo");
+    x.innerHTML = "Browser width: " + w + ", height: " + h + ".";
+    </script>
+    
 </body>
 </html>

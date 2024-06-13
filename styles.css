@@ -113,3 +113,17 @@ footer p {
         font-size: 0.75rem;
     }
 }
+
+@media (min-width: 985px) and (max-width: 1192px) {
+    .first-carousel .carousel-inner .carousel-item img {
+        height: 267px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 452px) and (max-width: 984px) {
+    .first-carousel .carousel-inner .carousel-item img {
+        height: 400px;
+        object-fit: cover;
+    }
+}
