@@ -3,135 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoffeeBrew</title>
+    <title>CafeBrew</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Header -->
-    <header class="text-white p-3 d-flex justify-content-between align-items-center">
-        <img src="images/logo1.png" alt="Logo" class="logo ml-4">
-        <nav class="mr-4">
-            <a href="#" class="text-white mx-3">Home</a>
-            <a href="#" class="text-white mx-3">About Us</a>
-            <a href="#" class="text-white mx-3">Contact</a>
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="images/logo1.png" alt="Logo" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
     </header>
 
     <!-- First Container -->
-    <div class="container my-5 bg-secondary first-container">
+    <div class="container mt-5">
         <div class="row">
             <!-- First Column -->
-            <div class="col-md-6">
-                <div class="mb-4">
-                    <h2>COFFEEBREW</h2>
-                    <p>Your Gateway to a World of Exquisite Coffee and Pastries</p>
-                    <p>At CoffeeBrew, we invite you to embark on a delightful journey through the captivating world of coffee and pastries. Our cozy café is a sanctuary for coffee enthusiasts and pastry lovers alike.</p>
-                </div>
-                <div class="row">
-                    <div class="col-6">
-                        <img src="images/coffee1.png" class="img-fluid coffee-img" alt="Coffee 1">
-                        <p class="mt-2">Best-Selling Coffee</p>
+            <div class="col-lg-6 col-md-12">
+                <!-- Title and Intro -->
+                <div class="row mb-4">
+                    <div class="col-12">
+                        <h2>Welcome to Our Cafe</h2>
+                        <p>Experience the best coffee and pastries in town.</p>
                     </div>
-                    <div class="col-6">
-                        <img src="images/pastry1.jpg" class="img-fluid pastry-img" alt="Pastry 1">
-                        <p class="mt-2">Best-Selling Pastry</p>
+                </div>
+                <!-- Two Images with Intro -->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <img src="images/coffee1.png" class="img-fluid" alt="Best Coffee">
+                        <p>Best-selling Coffee</p>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <img src="images/pastry1.jpg" class="img-fluid" alt="Best Pastry">
+                        <p>Best-selling Pastry</p>
                     </div>
                 </div>
             </div>
-
-            <!-- Second Column -->
-            <div class="col-md-6">
+            <!-- Second Column with Carousel -->
+            <div class="col-lg-6 col-md-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="images/coffee1.png" class="d-block w-100" alt="Carousel 1">
+                            <img src="images/coffee2.jpg" class="d-block w-100" alt="Image 1">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/coffee2.jpg" class="d-block w-100" alt="Carousel 2">
+                            <img src="images/coffee3.jpg" class="d-block w-100" alt="Image 2">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/pastry1.jpg" class="d-block w-100" alt="Carousel 3">
+                            <img src="images/pastry2.jpg" class="d-block w-100" alt="Image 3">
                         </div>
                         <div class="carousel-item">
-                            <img src="images/pastry2.jpg" class="d-block w-100" alt="Carousel 4">
+                            <img src="images/pastry3.png" class="d-block w-100" alt="Image 4">
                         </div>
                     </div>
                 </div>
-                <p class="mt-2">Delicious pastries to complement your coffee.</p>
+                <p>Enjoy our cafe's atmosphere with great company.</p>
             </div>
         </div>
     </div>
 
     <!-- Second Container -->
-    <div class="container my-5 bg-secondary second-container">
-        <div class="row">
-            <!-- First Row -->
-            <div class="col-3">
-                <img src="images/pastry1.jpg" class="img-fluid menu-img" alt="Breakfast">
-                <p class="mt-2">Breakfast Menu</p>
+    <div class="container mt-5 mb-5">
+        <!-- Four Images with Intro -->
+        <div class="row mb-4">
+            <div class="col-md-3 col-sm-6 mb-3">
+                <img src="images/coffee4.jpg" class="img-fluid" alt="Breakfast Menu">
+                <p>Breakfast Menu</p>
             </div>
-            <div class="col-3">
-                <img src="images/pastry2.jpg" class="img-fluid menu-img" alt="Lunch">
-                <p class="mt-2">Lunch Menu</p>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <img src="images/pastry4.jpg" class="img-fluid" alt="Lunch Menu">
+                <p>Lunch Menu</p>
             </div>
-            <div class="col-3">
-                <img src="images/pastry3.png" class="img-fluid menu-img" alt="Snack">
-                <p class="mt-2">Snack Menu</p>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <img src="images/coffee5.jpg" class="img-fluid" alt="Snack Menu">
+                <p>Snack Menu</p>
             </div>
-            <div class="col-3">
-                <img src="images/pastry4.jpg" class="img-fluid menu-img" alt="Dinner">
-                <p class="mt-2">Dinner Menu</p>
+            <div class="col-md-3 col-sm-6 mb-3">
+                <img src="images/pastry5.jpg" class="img-fluid" alt="Dinner Menu">
+                <p>Dinner Menu</p>
             </div>
         </div>
-        <!-- Second Row -->
-        <div class="row mt-5 bg-light employee-carousel">
-            <div class="col-12">
-                <div id="employeeCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="images/coffee3.jpg" class="d-block w-100" alt="Employee Intro">
-                                </div>
-                                <div class="col-md-6 d-flex flex-column justify-content-start">
-                                    <h2>Our Dedicated Team</h2>
-                                    <p>Meet our team of skilled baristas and pastry chefs.</p>
-                                </div>
-                            </div>
+
+        <!-- Inner Container with Carousel -->
+        <div id="employeeCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner padding-content">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/pastry6.jpg" class="img-fluid" alt="Employee">
                         </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="images/coffee2.jpg" class="d-block w-100" alt="Employee 1">
-                                </div>
-                                <div class="col-md-6 d-flex flex-column justify-content-start">
-                                    <h2>The Barista</h2>
-                                    <p>The heart and soul of the coffee shop, responsible for preparing and serving coffee and other beverages with precision and care. </p>
-                                </div>
-                            </div>
+                        <div class="col-md-8">
+                            <h2>Meet Our Team</h2>
+                            <p>Our friendly staff are here to serve you the best coffee and pastries.</p>
                         </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="images/coffee1.png" class="d-block w-100" alt="Employee 2">
-                                </div>
-                                <div class="col-md-6 d-flex flex-column justify-content-start">
-                                    <h2>The Pastry Chef</h2>
-                                    <p>Specializes in creating delicious pastries, desserts, and baked goods to complement the coffee offerings.</p>
-                                </div>
-                            </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/pastry7.jpg" class="img-fluid" alt="Employee">
                         </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <img src="images/coffee4.jpg" class="d-block w-100" alt="Employee 3">
-                                </div>
-                                <div class="col-md-6 d-flex flex-column justify-content-start">
-                                    <h2>The Manager</h2>
-                                    <p>Oversees the overall operations of the coffee shop, including staffing, inventory management, customer relations, and ensuring profitability and adherence to company policies.</p>
-                                </div>
-                            </div>
+                        <div class="col-md-8">
+                            <h2>Meet Our Team</h2>
+                            <p>Our friendly staff are here to serve you the best coffee and pastries.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/logo.png" class="img-fluid" alt="Employee">
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Meet Our Team</h2>
+                            <p>Our friendly staff are here to serve you the best coffee and pastries.</p>
                         </div>
                     </div>
                 </div>
@@ -140,12 +133,12 @@
     </div>
 
     <!-- Footer -->
-    <footer class="text-white text-center py-3">
-        <p>&copy; 2024 Coffee & Pastry. All rights reserved.</p>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Cafe Website. All Rights Reserved.</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
