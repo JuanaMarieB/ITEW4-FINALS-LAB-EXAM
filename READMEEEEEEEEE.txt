@@ -17,7 +17,7 @@ IMAGES FOR 2ND CONTAINER:
 
 NOTES:
 1. Need to use Micro and Marco code (CHECK!)
-2. Adjust sizes of all Images
+2. Adjust sizes of all Images (CHECK!)
 3. TEMPORARY images in the current code right now
 4. The 2 images from the 1st container and the 4 images from the 2nd container ISN'T being responsive (CHECK!)
 5. Need better COLOR PALETTE and IMAGES
