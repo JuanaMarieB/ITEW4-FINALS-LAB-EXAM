@@ -1,50 +1,61 @@
+/* General body settings */
 body {
     font-family: Arial, sans-serif;
     background-color: #ebebeb;
 }
 
+/* Logo size settings */
 header .logo {
     width: 50px;
     height: auto;
 }
 
+/* Header and footer background and padding */
 header, footer {
     padding: 10px 0;
     background-color: #5f422f;
 }
 
+/* Container border radius */
 .container {
-    padding-top: 20px;
+    border-radius: 8px;
 }
 
+/* First container background and padding */
 .first-container {
-    background-color: #5f422f;
-    padding: 50px;
-    border-radius: 8px;
+    background-color: #9e6e4e;
+    flex: 1;
+    padding: 50px 0;
+    margin-bottom: 50px;
 }
 
+/* Second container background and padding */
 .second-container {
-    background-color: #b57e5e;
-    padding: 50px; 
-    border-radius: 8px;
+    background-color: #c89577;
+    flex: 1;
+    padding: 50px 0;
 }
 
+/* Title styling */
 h2 {
     font-weight: bold;
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+/* Image styling */
 img {
     border-radius: 8px;
     width: 100%;
 }
 
+/* Fixed size for images */
 .fixed-size {
     width: 100%;
-    height: 335px;
+    height: 352px;
     object-fit: cover;
 }
 
+/* Image container settings */
 .image-container {
     position: relative;
     width: 100%;
@@ -52,6 +63,7 @@ img {
     overflow: hidden;
 }
 
+/* Image container inner settings */
 .image-container img {
     position: absolute;
     top: 0;
@@ -61,28 +73,15 @@ img {
     object-fit: cover;
 }
 
+/* Carousel padding and background */
 .padding-content {
     padding: 30px;
     background-color: #ffffff;
     border-radius: 8px;
 }
 
-/* Macro and Micro Responsiveness */
-@media (max-width: 1200px) {
-    .col-md-6,
-    .col-md-3 {
-        margin-bottom: 20px;
-    }
-}
-
-@media (max-width: 992px) {
-    .col-md-4,
-    .col-md-8 {
-        margin-bottom: 20px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 768px) {
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
     .navbar-brand img {
         width: 40px;
     }
@@ -95,6 +94,7 @@ img {
     }
 }
 
+/* Responsiveness for very small screens */
 @media (max-width: 576px) {
     h2 {
         font-size: 1.25rem;
@@ -107,13 +107,15 @@ img {
     }
 }
 
-@media (min-width: 992px) and (max-width: 1198px) {
+/* Responsiveness for medium screens */
+@media (min-width: 992px) and (max-width: 1199px) {
     .first-carousel .carousel-inner .carousel-item img {
-        height: 300px;
+        height: 317px;
         object-fit: cover;
     }
 }
 
+/* Responsiveness for small to medium screens */
 @media (min-width: 452px) and (max-width: 991px) {
     .first-carousel .carousel-inner .carousel-item img {
         height: 375px;
@@ -121,6 +123,7 @@ img {
     }
 }
 
+/* Responsiveness for medium to large screens */
 @media (min-width: 766px) and (max-width: 1488px) {
     #employeeCarousel .carousel-inner .carousel-item .row .col-md-4,
     #employeeCarousel .carousel-inner .carousel-item .row .col-md-8 {
